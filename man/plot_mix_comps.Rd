@@ -2,18 +2,18 @@
 % Please edit documentation in R/plot_mix_comps.R
 \name{plot_mix_comps}
 \alias{plot_mix_comps}
-\title{Plot a Mixture Component}
+\title{Custom Function for Overlaying Mixture Components}
 \usage{
 plot_mix_comps(x, mu, sigma, lam)
 }
 \arguments{
-\item{x}{Input data.}
+\item{x}{Input data}
 
-\item{mu}{Mean of component.}
+\item{mu}{Mean of component}
 
-\item{sigma}{Variance of component.}
+\item{sigma}{Variance of component}
 
-\item{lam}{Mixture weight of component.}
+\item{lam}{Mixture weight of component}
 }
 \description{
 Plots a mixture component conditioned on a superimposed function
