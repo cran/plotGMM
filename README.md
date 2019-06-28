@@ -22,13 +22,13 @@ mixmdl <- mixtools::normalmixEM(faithful$waiting, k = 2)
 plot_GMM(mixmdl, 2)
 ```
 
-### Plotting Cut Points from GMMs using `plot_cut_point`
+### Plotting Cut Points from GMMs using `plot_cut_point` (with amerika color palette)
 ```{r }
 mixmdl <- mixtools::normalmixEM(faithful$waiting, k = 2)
 
-plot_cut_point(mixmdl, plot = TRUE) # produces plot
+plot_cut_point(mixmdl, plot = TRUE, color = "amerika") # produces plot
 
-plot_cut_point(mixmdl, plot = FALSE) # produces only numeric summary output from GMM
+plot_cut_point(mixmdl, plot = FALSE) # produces only cut point value
 ```
 
 ### Manually using the `plot_mix_comps` function in a custom `ggplot2` plot
